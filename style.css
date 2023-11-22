@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    width: 100%;
+    height: 12vh;
+    background-color: mediumaquamarine;
+}
+
+.ul-navbar{
+    background-color: mediumaquamarine;
+    display:flex;
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90px;
+    height: 12vh;
+}
+
+.logo img{
+    background-image: mediumaquamarine;
+    float: left;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.li-navbar{
+    background-color: mediumaquamarine;
+    list-style-type: none;  
+    padding: 10px;
+    margin-right: 30px;
+    color:white;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.li-navbar:hover {
+    background-color: skyblue;
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: navy;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-isi-home{
+    background-color: turquoise;
+    height: 79vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content :center;
+    align-items: center;
+    background-image:url('backgroundhome.jpg');
+}
+
+.Btnhm{
+    background-color:#d5e6e7;
+    color: black;
+    display:inline-block;
+    cursor:pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+    size: 30px;
+    padding: 15px;
+    border-radius:0.5rem;
+    box-shadow: 1px 1px 3px rgb(1,1,3,0.5);
+}
+
+.Btnhm:hover{
+    background-color: skyblue;
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.container-isi-sisa{
+    height: 79vh;
+    width: 100%;
+    display: flex;
+    justify-content :center;
+    align-items: center;
+    background-image:url('handmadepaper.png');
+}
+
+.container-isi-portfolio{
+    height: 79vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content :center;
+    align-items: center;
+    background-image:url('handmadepaper.png');
+}
+
+.pp-OwO{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #252d52;
+}
+
+
+.Nama{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Keterangan-Nama{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-display{
+    display: flex;
+    flex-direction: row;
+}
+.iconsss{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.icon-a{
+    color: red;
+}
+
+.icon-b{
+    color: blue;
+}
+
+.icon-c{
+    color: green;
+}
+
+.Footer{
+    height: 8vh;
+    background-color: mediumaquamarine;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uwu{
+    font-size: 20px;
+    color:navy;
+}
+
+.Footerdesc{
+	color: black;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.table-ask-me{
+    font-size: 25px;
+    height: 40vh;
+    width: 100%;
+}
+
+.kiri{
+    width: 50%;
+    border-right: 4px solid rgb(86, 188, 222);
+}
+
+.kiri-atas{
+    width: 50%;
+    border-right: 4px solid rgb(86, 188, 222);
+    font-size: 56px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(73, 11, 228);
+    padding-left: 40px;
+}
+
+.kiri-bawah{
+    width: 50%;
+    border-right: 4px solid rgb(86, 188, 222);
+    padding-left: 40px;
+}
+
+.kanan{
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.tengah{
+    width: 25%;
+}
+
+.ujung-kanan{
+    width: 25%;
+}
+
+.satu{
+    height: 30px;
+    width: 60px;
+}
+
+.border1{
+    padding: 5px;
+}
+
+.table1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
